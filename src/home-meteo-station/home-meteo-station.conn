@@ -1,0 +1,31 @@
+Соединения для схемы домашней метеостанции:
+
+Компоненты:
+
+- Arduino UNO							: Arduino
+- 7-segment 4-digit indicator			: Display
+- DHT11 temperature / humidity sensor 	: Sensor
+
+Соединения:
+
+- Arduino D12 -> 1K res. -> Display 03 (dp)
+- Arduino D11 -> 1K res. -> Display 05 (G)
+- Arduino D10 -> 1K res. -> Display 10 (F)
+- Arduino D09 -> 1K res. -> Display 01 (E)
+- Arduino D08 -> 1K res. -> Display 02 (D)
+- Arduino D07 -> 1K res. -> Display 04 (C)
+- Arduino D06 -> 1K res. -> Display 07 (B)
+- Arduino D05 -> 1K res. -> Display 11 (A)
+
+- Arduino A01 -> Display 12 (1)
+- Arduino A02 -> Display 09 (2)
+- Arduino A03 -> Display 08 (3)
+- Arduino A04 -> Display 06 (4)
+
+- Arduino 5v -> Breadboard +
+- Arduino GND -> Breadboard GND
+
+- Breadboard + -> Sensor 1
+- Breadboard + -> 10K res. -> Sensor 2
+- Breadboard GND -> Sensor 4
+- Arduino D2 -> Sensor 2
